@@ -102,7 +102,7 @@ app.use((req,res,next)=>{
 //   res.send(registeruser);
 // })
 
-app.use("/",listingsRouter);
+app.use("/listings",listingsRouter);
 app.use("/listings/:id/reviews",reviewsRouter)
 app.use("/",userRouter)
 
